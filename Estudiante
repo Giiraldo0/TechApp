@@ -1,0 +1,21 @@
+package TechApp;
+
+public class Estudiante {
+    private String nombre;
+    private int edad;
+    private String matricula;
+
+    public Estudiante(String nombre, int edad, String matricula) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.matricula = matricula;
+    }
+
+    public String mostrarInformacion() {
+        return "Estudiante{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", matricula='" + matricula + '\'' +
+                '}';
+    }
+}
